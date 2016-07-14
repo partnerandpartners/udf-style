@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Merkury Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/SimSun.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Merkury Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/merkury_bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Merkury Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/merkury_mono.otf') format('otf');
+}
