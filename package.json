@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/partnerandpartners/udf-style#readme",
   "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.2",
     "fastclick": "^1.0.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
@@ -27,5 +26,8 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",
     "validator": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2"
   }
 }
