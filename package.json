@@ -1,0 +1,31 @@
+{
+  "name": "udf-style",
+  "version": "1.0.0",
+  "description": "Styles and style-guide for Urban Design Forum",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partnerandpartners/udf-style.git"
+  },
+  "author": "Greg Mihalko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/partnerandpartners/udf-style/issues"
+  },
+  "homepage": "https://github.com/partnerandpartners/udf-style#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "fastclick": "^1.0.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "validator": "^5.0.0"
+  }
+}
