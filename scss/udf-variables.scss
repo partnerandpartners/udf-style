@@ -164,7 +164,8 @@ $font-size-h6:               1rem !default;
 $line-height:                1.5 !default;
 
 $headings-margin-bottom:     ($spacer / 2) !default;
-$headings-font-family:       inherit !default;
+$headings-font-family:     $font-family-sans-serif;
+$sm-headings-font-family:   $font-family-monospace;
 $headings-font-weight:       normal;
 $headings-line-height:       1.285;
 $headings-color:             inherit !default;

@@ -22,7 +22,20 @@
 
 body {margin: 0; padding: 0;}
 
-strong {font-family: 'Merkury Bold', sans-serif;}
+strong {font-family: 'Merkury Bold', sans-serif; font-weight: normal; font-style: normal; font-stretch: normal;}
 
 //Typographic Styles
 // Etc
+
+h4, h5, h6,
+.h4, .h5, .h6 {
+  margin-bottom: $headings-margin-bottom;
+  font-family: $sm-headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+}
+
+.light {
+  opacity: 0.2;
+}
