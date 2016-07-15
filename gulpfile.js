@@ -7,6 +7,7 @@ var clean = require('gulp-clean-css');
 var autoprefixer = require('gulp-autoprefixer');
 var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
+var webserver = require('gulp-webserver');
 //var path = require('path');
 
 gulp.task('sass', function () {
@@ -19,7 +20,21 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function(){
-  gulp.watch(['./scss/*.scss'], ['sass']);
+  gulp.watch(['./scss/**/*.scss'], ['sass']);
 });
 
 gulp.task('default',['sass','watch']);
+
+
+gulp.task('webserver', function() {
+  gulp.src('./')
+    .pipe(webserver({
+      livereload: false,
+      directoryListing: false,
+      open: true,
+      port: 8001,
+      fallback: 'index.html'
+    }));
+});
+
+gulp.task('develop', ['sass', 'watch', 'webserver'])
