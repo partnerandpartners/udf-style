@@ -25,7 +25,8 @@ body {margin: 0; padding: 0;}
 strong {font-family: 'Merkury Bold', sans-serif; font-weight: normal; font-style: normal; font-stretch: normal;}
 
 //Typographic Styles
-// Etc
+
+// Headings
 
 h4, h5, h6,
 .h4, .h5, .h6 {
@@ -34,12 +35,23 @@ h4, h5, h6,
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
   color: $headings-color;
+  -webkit-font-smoothing: antialiased;
 }
 
 .light {
   opacity: 0.2;
 }
 
+// Paragraph Styling
+
 .main-lead {
   font-size: 1.714rem;
+}
+
+// Links
+a {
+  &:hover {
+    border-bottom: solid 1px;
+    cursor: pointer;
+  }
 }
