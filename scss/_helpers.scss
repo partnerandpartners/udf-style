@@ -1,0 +1,5 @@
+// Placeholder image div
+.placeholder {
+  @include aspect-ratio(2, 1);
+  background: $gray-lighter;
+}
