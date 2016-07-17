@@ -1,6 +1,10 @@
 $button-padding: $spacer-y/2 $spacer-x * 1.5;
 
 .btn {
+  font-size: inherit;
+  line-height: inherit;;
+  background: transparent;
+  border: none;
   display: inline-block;
   outline: none;
   -webkit-appearance: none;
