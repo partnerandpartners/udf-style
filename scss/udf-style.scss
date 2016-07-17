@@ -22,7 +22,7 @@
 
 body {margin: 0; padding: 0;}
 
-strong {font-family: 'Merkury Bold', sans-serif; font-weight: normal; font-style: normal; font-stretch: normal;}
+strong {font-family: $font-family-bold-sans-serif; font-weight: normal; font-style: normal; font-stretch: normal;}
 
 //Typographic Styles
 
@@ -38,12 +38,40 @@ h4, h5, h6,
   -webkit-font-smoothing: antialiased;
 }
 
+.post-listing {
+  text-align: center;
+  .title {
+    font-family: $font-family-bold-sans-serif;
+  }
+  .label-date {
+    font-family: $font-family-monospace;
+    padding: .075rem .325rem;
+    border: 1px solid;
+    display: inline-block;
+  }
+  .label-upcoming {
+    background-color: #000;
+    color: #fff;
+  }
+  .label-program {
+    font-family: $font-family-monospace;
+  }
+  .excerpt {
+    text-align: left;
+  }
+}
+
+.triangle-right {
+  font-size: 24px;
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
 .light {
   opacity: 0.2;
 }
 
 // Paragraph Styling
-
 .main-lead {
   font-size: 1.714rem;
 }

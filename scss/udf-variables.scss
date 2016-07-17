@@ -124,8 +124,8 @@ $grid-breakpoints: (
 
 $container-max-widths: (
   sm: 576px,
-  md: 720px,
-  lg: 940px,
+  md: 880px,
+  lg: 1140px,
   xl: 1280px
 );
 
@@ -142,7 +142,8 @@ $grid-gutter-width:          1.875rem !default; // 30px
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:     "Merkury Regular","Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:     "Merkury Regular",Geneva, sans-serif;
+$font-family-bold-sans-serif:     "Merkury Bold",Geneva, sans-serif;
 $font-family-monospace:      "Merkury Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:           $font-family-sans-serif;
 
@@ -167,7 +168,7 @@ $headings-margin-bottom:     ($spacer / 2) !default;
 $headings-font-family:     $font-family-sans-serif;
 $sm-headings-font-family:   $font-family-monospace;
 $headings-font-weight:       normal;
-$headings-line-height:       1.285;
+$headings-line-height:       1.2;
 $headings-color:             inherit !default;
 
 $lead-font-size:             1.285rem; //18px
