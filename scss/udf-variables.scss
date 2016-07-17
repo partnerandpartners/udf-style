@@ -78,8 +78,12 @@ $spacers: (
   3: (
     x:   ($spacer-x * 3),
     y:   ($spacer-y * 3)
+  ),
+  6: (
+    x:   ($spacer-x * 6),
+    y:   ($spacer-y * 6)
   )
-) !default;
+);
 $border-width:               1px !default;
 
 
@@ -145,6 +149,7 @@ $grid-gutter-width:          1.875rem !default; // 30px
 // Font, line-height, and color for body text, headings, and more.
 
 $font-family-sans-serif:     "Merkury Regular","Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif-bold:"Merkury Bold","Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-monospace:      "Merkury Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:           $font-family-sans-serif;
 
