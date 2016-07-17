@@ -17,6 +17,8 @@
 // Fonts
 // Components
 
+// CUSTOM VARIABLES
+
 // General variable structure
 //
 // Variable format should follow the `$component-modifier-state-property` order.
@@ -205,3 +207,11 @@ $component-active-bg:    $brand-primary !default;
 
 $caret-width:            .3em !default;
 $caret-width-lg:         $caret-width !default;
+
+
+
+// CUSTOM VARIABLES
+$nav-menu-line-height: 2rem;
+$nav-menu-font-size: 1.5rem;
+
+$dot-menu-line-height: 2rem;
