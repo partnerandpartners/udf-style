@@ -40,3 +40,8 @@
     border: 1px dotted $body-color;
   }
 }
+
+%bold {
+  font-family: $font-family-sans-serif-bold;
+  font-weight: bold;
+}
