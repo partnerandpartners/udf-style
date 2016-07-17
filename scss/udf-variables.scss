@@ -17,6 +17,8 @@
 // Fonts
 // Components
 
+// CUSTOM VARIABLES
+
 // General variable structure
 //
 // Variable format should follow the `$component-modifier-state-property` order.
@@ -43,7 +45,7 @@ $brand-danger:              #d9534f !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-flex:               true;
+$enable-flex:               false; // Throws off the slider on home page.
 $enable-rounded:            false;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
@@ -76,8 +78,12 @@ $spacers: (
   3: (
     x:   ($spacer-x * 3),
     y:   ($spacer-y * 3)
+  ),
+  6: (
+    x:   ($spacer-x * 6),
+    y:   ($spacer-y * 6)
   )
-) !default;
+);
 $border-width:               1px !default;
 
 
@@ -206,3 +212,11 @@ $component-active-bg:    $brand-primary !default;
 
 $caret-width:            .3em !default;
 $caret-width-lg:         $caret-width !default;
+
+
+
+// CUSTOM VARIABLES
+$nav-menu-line-height: 2rem;
+$nav-menu-font-size: 1.5rem;
+
+$dot-menu-line-height: 2rem;

@@ -14,3 +14,34 @@
     bottom: 0;
   }
 }
+
+@mixin dot-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  li {
+    padding-left: $spacer-x;
+    display: inline-flex;
+    &:first-of-type {
+      padding-left: 0;
+    }
+  }
+  a {
+    display: flex;
+    line-height: $dot-menu-line-height;
+  }
+  span {
+    margin-right: $spacer-x / 2;
+    height: $dot-menu-line-height;
+    width: $dot-menu-line-height;
+    display: inline-block;
+    border-radius: $dot-menu-line-height/2;
+    border: 1px dotted $body-color;
+  }
+}
+
+%bold {
+  font-family: $font-family-sans-serif-bold;
+  font-weight: bold;
+}
