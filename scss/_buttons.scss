@@ -1,0 +1,54 @@
+$button-padding: $spacer-y/2 $spacer-x * 1.5;
+
+.btn {
+  display: inline-block;
+  outline: none;
+  -webkit-appearance: none;
+  padding: $button-padding;
+  text-decoration: none;
+  @extend %bold;
+  position: relative;
+  line-height: 1.5rem;
+  &:hover {
+    color: red;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+}
+
+.btn.btn-brackets,
+.btn.btn-bracketed,
+.btn.btn-bracket,
+.btn.brackets,
+.btn.bracketed,
+.btn.bracket {
+  &:before {
+    margin-right: $spacer-x;
+    font-size: 2rem;
+    line-height: $spacer-y * 2.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  &:after{
+    content:"]";
+    margin-left: $spacer-x;
+    font-size: 2rem;
+    line-height: $spacer-y * 2.6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  &:before{
+    content:"["
+  }
+}
+
+.btn.btn-lg {
+  border: $border-width dotted $body-color;
+  font-size: 1.5rem;
+  padding: $spacer-y * .8 $spacer-x;
+}
