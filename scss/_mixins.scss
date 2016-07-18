@@ -1,3 +1,9 @@
+%bold {
+  font-family: $font-family-sans-serif-bold;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
 @mixin aspect-ratio($width, $height) {
   position: relative;
   &:before {
@@ -30,6 +36,7 @@
   a {
     display: flex;
     line-height: $dot-menu-line-height;
+    @extend %bold;
   }
   span {
     margin-right: $spacer-x / 2;
@@ -39,9 +46,4 @@
     border-radius: $dot-menu-line-height/2;
     border: 1px dotted $body-color;
   }
-}
-
-%bold {
-  font-family: $font-family-sans-serif-bold;
-  font-weight: bold;
 }

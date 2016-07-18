@@ -29,7 +29,7 @@ gulp.task('default',['sass','watch']);
 gulp.task('webserver', function() {
   gulp.src('./')
     .pipe(webserver({
-      livereload: false,
+      livereload: true,
       directoryListing: false,
       open: true,
       port: 8001,

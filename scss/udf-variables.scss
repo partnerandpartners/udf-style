@@ -101,7 +101,7 @@ $body-color:                 #000;
 
 $link-color:                 $brand-primary;
 $link-decoration:            none !default;
-$link-hover-color:           blue;
+$link-hover-color:           inherit;
 $link-hover-decoration:      none;
 
 
@@ -132,7 +132,7 @@ $container-max-widths: (
   sm: 576px,
   md: 880px,
   lg: 1140px,
-  xl: 1280px
+  xl: 1200px
 );
 
 
@@ -149,7 +149,7 @@ $grid-gutter-width:          1.875rem !default; // 30px
 // Font, line-height, and color for body text, headings, and more.
 
 $font-family-sans-serif:     "Merkury Regular",Geneva, sans-serif;
-$font-family-bold-sans-serif:     "Merkury Bold",Geneva, sans-serif;
+$font-family-sans-serif-bold:     "Merkury Bold",Geneva, sans-serif;
 $font-family-monospace:      "Merkury Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:           $font-family-sans-serif;
 
