@@ -1,5 +1,10 @@
 // Placeholder image div
 .placeholder {
-  @include aspect-ratio(2, 1);
+  @include aspect-ratio(3, 2);
   background: $gray-lighter;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

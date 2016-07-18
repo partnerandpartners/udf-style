@@ -10,3 +10,7 @@
   }
   @include dot-menu();
 }
+
+.dot-menu {
+  @include dot-menu();
+}
