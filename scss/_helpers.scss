@@ -3,3 +3,8 @@
   @include aspect-ratio(3, 2);
   background: $gray-lighter;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
