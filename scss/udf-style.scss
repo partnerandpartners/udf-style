@@ -48,10 +48,10 @@ h4, h5, h6,
   -webkit-font-smoothing: antialiased;
 }
 
-.post-listing {
-  text-align: center;
+.post-listing, .news-listing, .sponsor-listing, .partner-listing {
   .title {
     @extend %bold;
+    line-height: 1.2;
   }
   .label-date {
     font-family: $font-family-monospace;
@@ -83,7 +83,7 @@ h4, h5, h6,
 
 // Paragraph Styling
 .main-lead {
-  font-size: 1.714rem;
+  font-size: $font-size-lg;
 }
 
 // Links
