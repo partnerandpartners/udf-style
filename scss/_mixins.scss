@@ -37,13 +37,24 @@
     display: flex;
     line-height: $dot-menu-line-height;
     @extend %bold;
+    span {
+      margin-right: $spacer-x / 2;
+      height: $dot-menu-line-height;
+      width: $dot-menu-line-height;
+      display: inline-block;
+      border-radius: $dot-menu-line-height/2;
+      border: 1px dotted $body-color;
+      // border: 2px solid yellow;
+      // border-image-source: url(udf-list-border.svg);
+      // border-image-slice: 20 22;
+      // border-image-repeat: round;
+    }
+  &:hover {
+    border-bottom: none;
+    span {
+      background-color: $body-color;
+    }
   }
-  span {
-    margin-right: $spacer-x / 2;
-    height: $dot-menu-line-height;
-    width: $dot-menu-line-height;
-    display: inline-block;
-    border-radius: $dot-menu-line-height/2;
-    border: 1px dotted $body-color;
   }
+
 }

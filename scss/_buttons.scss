@@ -14,11 +14,9 @@ $button-padding: $spacer-y/2 $spacer-x * 1.5;
   position: relative;
   line-height: 1.5rem;
   &:hover {
-    color: red;
+    color: $body-color;
     text-decoration: none;
-    border-bottom: none;
   }
-
 }
 
 .btn.btn-brackets,
@@ -51,8 +49,24 @@ $button-padding: $spacer-y/2 $spacer-x * 1.5;
   }
 }
 
-.btn.btn-lg {
-  border: $border-width dotted $body-color;
-  font-size: 1.5rem;
-  padding: $spacer-y * .8 $spacer-x;
+.topics {
+  & > a {
+    font-family: $font-family-monospace;
+    font-weight: normal;
+    &.btn.btn-lg {
+      font-size: $font-size-lg;
+      padding: $spacer-y * .75 $spacer-x $spacer-y * .8 $spacer-x;
+    }
+    &.btn.btn-md {
+      font-size: $font-size-md;
+      padding: $spacer-y * 0.5 $spacer-x $spacer-y * 0.55 $spacer-x;
+    }
+    &:hover {
+      border: $border-width solid $body-color;
+    }
+  }
+}
+
+.dotted {
+    border: $border-width dotted $body-color;
 }

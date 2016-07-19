@@ -6,7 +6,10 @@
     width: 100%;
     vertical-align: center;
     justify-content: space-between;
-    padding: $spacer-y*2 $spacer-x*2;
+    padding: $spacer-y*2 $spacer-x*2 0;
+    border-top: solid 4px $body-color;
+    border-left: solid 4px $body-color;
+    border-right: solid 4px $body-color;
   }
   @include dot-menu();
 }
