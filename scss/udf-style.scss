@@ -90,7 +90,11 @@ h4, h5, h6,
   background-color: $body-bg;
 }
 
-.current-program-info:first-of-type {
+.current-program-info {
+  background-color: $gray-lightest;
+  min-height: 30rem;
+}
+.current-sub-program-info {
   background-color: $gray-lightest;
   min-height: 30rem;
 }

@@ -24,7 +24,7 @@
 @mixin dot-menu {
   list-style-type: none;
   margin: 0;
-  padding: $spacer-y 0;
+  padding: 0;
   display: flex;
   li {
     padding-left: $spacer-x;
