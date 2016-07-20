@@ -85,9 +85,14 @@ h4, h5, h6,
 .main-lead {
   font-size: $font-size-lg;
 }
-
+// Programs Styles
 .program-sections {
   background-color: $body-bg;
+}
+
+.current-program-info {
+  background-color: $gray-lightest;
+  min-height: 30rem;
 }
 
 // Links
