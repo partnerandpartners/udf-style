@@ -92,11 +92,22 @@ h4, h5, h6,
 
 .current-program-info {
   background-color: $gray-lightest;
-  min-height: 30rem;
+  min-height: 32vh;
+  max-height: 48vh;
 }
 .current-sub-program-info {
   background-color: $body-bg;
-  min-height: 30rem;
+  min-height: 32vh;
+  max-height: 48vh;
+}
+
+.programs-wrapper {
+  .programs-featured-posts {
+    background-color: $body-bg;
+  }
+  .container {
+    background-color: $body-bg;
+  }
 }
 
 // Links
