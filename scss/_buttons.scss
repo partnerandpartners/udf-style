@@ -57,7 +57,7 @@ $button-padding: $spacer-y/2 $spacer-x * 1.5;
     border: $border-width dotted $body-color;
 }
 
-a.btn {
+.btn {
   &.btn-xl {
     font-size: $font-size-xl;
     padding: $spacer-y $spacer-x;
