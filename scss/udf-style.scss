@@ -32,7 +32,7 @@ html {-webkit-font-smoothing: antialiased;}
 
 body {margin: 0; padding: 0;}
 
-strong {font-family: $font-family-sans-serif-bold; font-weight: normal; font-style: normal; font-stretch: normal;}
+strong,b {font-family: $font-family-sans-serif-bold; font-weight: normal; font-style: normal; font-stretch: normal;}
 
 //Typographic Styles
 
@@ -84,6 +84,10 @@ h4, h5, h6,
 // Paragraph Styling
 .main-lead {
   font-size: $font-size-lg;
+}
+
+.program-sections {
+  background-color: $body-bg;
 }
 
 // Links
