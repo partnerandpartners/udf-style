@@ -105,6 +105,11 @@ h4, h5, h6,
     background: #fff;
     z-index:-1;
   }
+  #sub {
+    position: relative;
+    background: #fff;
+    z-index: 1001;
+  }
   .programs-featured-posts {
     background-color: $body-bg;
   }
