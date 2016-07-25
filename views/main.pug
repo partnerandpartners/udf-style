@@ -1,0 +1,27 @@
+extends ./layouts/base
+
+block main
+
+  section#typography
+    .container
+      .row(style="border:none;")
+        .col-sm-12
+          code * Typography *
+
+      include ./sections/typography
+
+  section#buttons
+    .container
+      .row(style="border:none;")
+        .col-sm-12
+          code * Buttons *
+
+      include ./sections/buttons
+
+  section#main-listings
+    .container
+      .row(style="border:none;")
+        .col-sm-12
+          code * Main Listings *
+
+      include ./sections/main-listings
